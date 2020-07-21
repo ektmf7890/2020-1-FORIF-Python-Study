@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>559</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="log_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>491</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>운동 기록 조회하러 가기</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="record_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>491</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>작심삼일 운동 계획 기록하러 가기</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>481</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>유산소 운동</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QProgressBar" name="yusanso">
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="format">
+        <string>%p분</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QProgressBar" name="muscle">
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="format">
+        <string>%p분</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>스트레칭</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QProgressBar" name="stretching">
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="format">
+        <string>%p분</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>근력 운동</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>이번 주의 운동 현황</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>559</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mypage_menu">
+    <property name="title">
+     <string>마이 페이지</string>
+    </property>
+    <addaction name="log_action"/>
+   </widget>
+   <addaction name="mypage_menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="log_action">
+   <property name="text">
+    <string>운동기록조회</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

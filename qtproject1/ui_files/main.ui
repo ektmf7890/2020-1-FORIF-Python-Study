@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230, 237, 240);</string>
+  </property>
+  <widget class="QLabel" name="travel_image">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>420</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>551</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="kor_btn">
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(186, 214, 221);
+font: 14pt &quot;야놀자 야체 R&quot;;
+border:none;
+height:28px;</string>
+      </property>
+      <property name="text">
+       <string>국내 관광 </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="euro_btn">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;야놀자 야체 R&quot;;
+background-color: rgb(141, 188, 199);
+border:none;
+height:28px;</string>
+      </property>
+      <property name="text">
+       <string>유럽권 관광 </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="se_asia_btn">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;야놀자 야체 R&quot;;
+background-color: rgb(112, 161, 172);
+border:none;
+height:28px;</string>
+      </property>
+      <property name="text">
+       <string>동남아 관광 </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="lbl1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 17pt &quot;배달의민족 한나는 열한살&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Forif 투어</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

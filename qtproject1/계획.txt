@@ -1,0 +1,45 @@
+<이번주와 다음주 중에 다루고 싶은 내용 : 작은 예제 여러개로 나누고 그걸로 과제랑 다 해결....>
+- QLabel
+
+- QPushButton : 기본 버튼 만들고 이벤트 연결하기  
+- QRadioButton, QCheckBox, GroupBox
+
+- QComboBox
+- QSlider와 QSpinBox를 이용해 숫자 값을 입력받는 과정
+
+- 레이아웃
+
+- QMessageBox 이용해서 질문하고 답변을 저장하기
+
+- QLineEdit
+- QTextEdit
+
+-QDateEdit, QTimeEdit, QDateTimeEdit, QCalanderEdit
+
+- QAbstractItemView에 속하는 Item Widget들
+  : QListWidget
+  : QTreeWidget
+  : QTableWidget
+
+- QMainWindow -> QMenuBar, QStatusBar, QToolBar (QAction 만들기)
+
+- setStyleSheet으로 버튼 이미지로 대체
+- QPixMap로 이미지 삽입하기
+- 디자이너 사용해서 폰트 및 색상 조정하는 방법
+
+
+<잡생각>
+- 드래그 드랍으로 여행지 선택하는 기능
+- 여행지 선택할 때 tree widget 사용하는 것도 괜찮지 않을까(지역별 분류를 위해, 거기에다가
+드래그 드랍 기능 까지 더하면 까리할 듯)
+- 이 여행에 대한 기대도를 QSlider로 입력 받기
+- 선택지 중에 맘에 드는 여행지가 없으면 더 추가할 수 있는 기능
+- 값이 덜 입력되었는데 위시리스트에 추가하려고 할 경우에 예외 처리하기
+(잘못된 값을 입력했다고 메세지 박스 띄우는 것도 나쁘지 않을 듯)
+- 위시 리스트에 있는 여행 정보 변경하는 기능!
+- 로그인 정보도 만드는 건 개에바쎄바..?
+- 위시 리스트 띄워주는 창 만들기
+
+홍홍
+
+

@@ -16,9 +16,9 @@ Our team decided to take on a project where we can apply the fundamental program
 
 Our project is to create a scheduler app that has an entertainment factor as well. The user can create tasks that must be done that day using the interface shown below. Users can designate a date, time, category, and even a difficulty for each task. Let's add a 100 squat task under the category '운동(excercise)', with difficulty of 3.
 
-![Create Task](images/create_task.gif)   
+![Create Task](create_task.gif)   
 
 Do the squats, and check the task off the list. Then you will see that your 'Excerise Cat' has gained 30xp due to this task. A cute way to motivate yourself to workout! :)   
-![Cat LevelUP](images/cat_levelup.gif)   
+![Cat LevelUP](cat_levelup.gif)   
 
 I think it was a great project to enhance the programming skills we learned through this mentoring group and also the team effort was amazing. The code for our project can be found [here](https://github.com/ektmf7890/2020-1-FORIF-Hackathon)!

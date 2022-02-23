@@ -22,4 +22,7 @@ Do the squats, and check the task off the list. Then you will see that your 'Exc
 <!-- ![Cat LevelUP](cat_levelup.gif =x100)    -->
 <img src="cat_levelup.gif" height="500">
 
-I think it was a great project to enhance the programming skills we learned through this mentoring group and also the team effort was amazing. The code for our project can be found [here](https://github.com/ektmf7890/2020-1-FORIF-Hackathon)!
+It was a great project to test the programming skills we learned through the mentoring sessions, and the team effort from programming the code from scratch and designing the ui was amazing. Great work!
+
+## Code
+The code for our project can be found [here](https://github.com/ektmf7890/2020-1-FORIF-Hackathon)!
